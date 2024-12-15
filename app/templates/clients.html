@@ -1,0 +1,7 @@
+<h1>Clientes</h1>
+<a href="/clients/new">Nuevo Cliente</a>
+<ul>
+  {% for client in clients %}
+    <li>{{ client.name }} - {{ client.email }}</li>
+  {% endfor %}
+</ul>

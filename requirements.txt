@@ -1,0 +1,10 @@
+flask
+flask-sqlalchemy
+flask-migrate
+flask-wtf
+flask-mail
+flask-jwt-extended
+mysqlclient
+pdfkit
+python-dotenv
+email_validator
